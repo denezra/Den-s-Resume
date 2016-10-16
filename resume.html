@@ -4,92 +4,83 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Den's Resume</title>
-	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="css/materialize.min.css"/>
+	<link rel="stylesheet" href="css/animation.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/media-queries.css"/>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 </head>
 <body>
-	<nav>
-		<div>
-			<strong class="text-center">Den Ezra Segunial</strong><br/>
-			<em class="text-center">Free Lancer</em>
+	<nav class="container">
+		<div class="row">
+			<div class="col s12 m12 l12">
+				<div class="box">
+					<strong class="text-center">Den Ezra Segunial</strong>
+					<em class="text-center">Free Lancer</em>
+				</div>
+			</div>
 		</div>
 	</nav>
-	<section>
-		<div class="left">
-			<div>
+	<section class="container section-animation">
+		<div class="row">
+			<div class="col s4 m4 l4 button1">
 				<img class="center-block" src="personal.jpg" alt="Personal">
+				<h6 class="text-center"><em>Profile</em></h6>
 			</div>
-			<div>
-				<p>08/08/89</p>
-			</div>
-			<div class="vertical-line"></div>
-			<div>
+			<div class="col s4 m4 l4 button2">
 				<img class="center-block" src="education.jpg" alt="Education">
+				<h6 class="text-center"><em>Education</em></h6>
 			</div>
-			<div>
-				<p>2006 - 2010</p>
-			</div>
-			<div class="vertical-line"></div>
-			<div>
+			<div class="col s4 m4 l4 button3">
 				<img class="center-block" src="experience.jpg" alt="Experience">
+				<h6 class="text-center"><em>Experience</em></h6>
 			</div>
-			<div>
-				<p>2010 - 2014</p>
+			<div class="detail fade-in-animation personal-detail">
+				<h4><em>About Me</em></h4>
+				<h5>Den Ezra Segunial</h5>
+				<p>I'm a free lancer armed with life skills experience with the intention 
+					 of securing a professional career with ample opportunity to tackle
+					 challenges and advance, while continuously building on my library of
+					 knowledge and skills.</p>
 			</div>
-			<div class="vertical-line"></div>
-			<div>
-				<p>04/01/14 - 04/30/14</p>
+			<div class="detail fade-in-animation education-detail">
+				<h4><em>Bachelor of Science</em></h4>
+				<h5>Adamson University</h5>
+				<p>Attended between June 2006 to March 2010 and Graduated at March 2010. 
+					 Adamson University located at 900 San Marcelino St., Ermita, Manila 
+					 Bachelor of Science in Computer Science</p>
 			</div>
-			<div class="vertical-line"></div>
-			<div>
-				<p>05/05/14 - 07/30/14</p>
+			<div class="detail fade-in-animation experience-detail">
+				<h4><em>Senior Developer</em></h4>
+				<h5>Wide-Out Workforce Inc.</h5>
+				<p>Normalize new upcoming components and Ad-Boxing the upcoming components.
+					 Support Studio related problems through email and call. Creates HTML5 
+					 assets according to the clients preferrences and zero bug across browser.</p>
+				<h4><em>Part-time Software Developer</em></h4>
+				<h5>Forever Rich Philippines Inc.</h5>
+				<p>Develop Software using C#. This software will be use as an inventory and
+					 record sales of the product for the company, the software helps to minimize
+					 time consumption and human error. </p>
+				<h4><em>Front-End Web Developer</em></h4>
+				<h5>Openovate Labs</h5>
+				<p>To layout website based on the clients photoshop and sketch. Implement 
+					 user interaction that will to connect with the user to the company. To 
+					 use different libraries for Front-End to accomodate the clients wants.</p>
 			</div>
-			<div class="vertical-line"></div>
-		</div>
-		<div class="right">
-			<hr/>
-			<h3>Profile</h3>
-			<hr/>
-			<h4><em>About Me</em></h4>
-			<h4>Den Ezra Segunial</h4>
-			<p>I'm a free lancer armed with life skills experience with the intention 
-				 of securing a professional career with ample opportunity to tackle
-				 challenges and advance, while continuously building on my library of
-				 knowledge and skills.</p>
-			<hr/>
-			<h3>Education</h3>
-			<hr/>
-			<h4><em>Bachelor of Science</em></h4>
-			<h4>Adamson University</h4>
-			<p>Attended between June 2006 to March 2010 and Graduated at March 2010. 
-				 Adamson University located at 900 San Marcelino St., Ermita, Manila 
-				 Bachelor of Science in Computer Science</p>
-			<hr/>
-			<h3>Experience</h3>
-			<hr/>
-			<h4><em>Senior Developer</em></h4>
-			<h4>Wide-Out Workforce Inc.</h4>
-			<p>Normalize new upcoming components and Ad-Boxing the upcoming components.
-				 Support Studio related problems through email and call. Creates HTML5 
-				 assets according to the clients preferrences and zero bug across browser.</p>
-			<h4><em>Part-time Software Developer</em></h4>
-			<h4>Forever Rich Philippines Inc.</h4>
-			<p>Develop Software using C#. This software will be use as an inventory and
-				 record sales of the product for the company, the software helps to minimize
-				 time consumption and human error. </p>
-			<h4><em>Front-End Web Developer</em></h4>
-			<h4>Openovate Labs</h4>
-			<p>To layout website based on the clients photoshop and sketch. Implement 
-				 user interaction that will to connect with the user to the company. To 
-				 use different libraries for Front-End to accomodate the clients wants.</p>
 		</div>
 	</section>
-	<footer>
-		<div>
-			<p>Cellphone: 09950834687</p>
-		</div>
-		<div>
-			<p>Email: den.segunial@gmail.com</p>
+	<footer class="container">
+		<div class="row">
+			<div class="col s12 m6 l6">
+				<p>Cellphone: 09950834687</p>
+			</div>
+			<div class="col s12 m6 l6">
+				<p>Email: den.segunial@gmail.com</p>
+			</div>
 		</div>
 	</footer>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>

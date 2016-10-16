@@ -1,0 +1,38 @@
+@media (max-width: 568px) {
+	h4 {
+		font-size: 0.9em;
+	}
+	h5 {
+    font-size: 0.8rem;
+	}
+	.detail {
+		padding: 0px;
+	}
+	.detail p {
+    font-size: 0.55em;
+	}
+}
+
+@media (min-width: 569px) and (max-width: 1198px) {
+	nav .box {
+		width: 280px;
+	}
+	h4 {
+		font-size: 1.28em;
+	}
+	h5 {
+    font-size: 1rem;
+	}
+	.detail {
+		padding: 0px;
+	}
+	.detail p {
+    font-size: 0.7em;
+	}
+}
+
+@media (min-width: 1199px) {
+	nav .box {
+		width: 350px;
+	}
+}
